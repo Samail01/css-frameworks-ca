@@ -1,0 +1,27 @@
+@import "./utilities/variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.navbar {
+    background-color: $primary-color;
+}
+
+.custom-login-section {
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+};
+
+.btn-login {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-color {
+    background-color: $primary-color;
+}
