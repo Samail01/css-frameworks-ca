@@ -25,3 +25,51 @@ background: #eee;
 .footer-color {
     background-color: $primary-color;
 }
+
+/*Feed Search Bar Styling*/
+
+
+/* Style for the search bar container */
+.input-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #search-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+
+
+  #recent-button,
+  #popular-button,
+  #az-button {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  
+  #recent-button,
+  #popular-button,
+  #az-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+  }
+  
+
+  #recent-button:hover,
+  #popular-button:hover,
+  #az-button:hover {
+    background-color: #555;
+  }
+  
+
